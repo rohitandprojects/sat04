@@ -62,7 +62,6 @@ const ContactForm = () => {
     <div className="row contact-form">
           <div className="col-12">
             <form onSubmit={handleSubmit}>
-             
             <div className="row form-row">
               <div className="col-12">
                 <div className="form-group">
@@ -82,7 +81,7 @@ const ContactForm = () => {
                   </div>
                 </div>
               </div>
-            </div>								
+            </div>
             <div className="row form-row">
               <div className="col-12">
                 <div className="form-group">
@@ -102,6 +101,17 @@ const ContactForm = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="form-group">
+              <label className="form-label"><strong>Department</strong></label>
+              <select className="form-control form-select" name="department" id="department" required onChange={handleInputChange}>
+                  <option value="" selected>-- Select Department --</option>
+                  <option value="Branding Department">Branding Department</option>
+                  <option value="Export Department">Export Department</option>
+                  <option value="Export Department">Export Department</option>
+                  <option value="Human Resource Department">Human Resource Department</option>
+                  <option value="Others">Others</option>
+              </select>
             </div>
             <div className="row form-row">
               <div className="col-12">

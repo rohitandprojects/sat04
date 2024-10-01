@@ -77,18 +77,6 @@ export default function Sidebar(){
                     <li><Link href="/backend/admin/social" className={ pathname === '/backend/admin/social' ? "active" : ""}>Social Media</Link></li>
                 </ul>
             </li>
-        </ul>
-        
-
-        {/* <ul>
-            {
-                link.map((item) => {
-                    return <li key={item.name}>
-                        <Link href={item.link}>{item.name}</Link>
-                    </li>
-                })
-            }
-        </ul> */}
-        
+        </ul>        
     </div>
 }

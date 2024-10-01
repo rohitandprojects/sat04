@@ -185,8 +185,8 @@ const Export = () => {
 			},
 			}).fromTo(
 				interestedCatelogueRef.current,
-				{ opacity: 0, y: 150 },
-				{ opacity: 1, y: 0, duration:2, ease: "power3.out" }
+				{ opacity:0},
+				{ opacity:1,duration:2, ease: "power3.out" }
 			);
 		return () => {
 			ScrollTrigger.getAll().forEach((trigger) => trigger.kill());

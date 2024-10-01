@@ -859,7 +859,7 @@ function SelectCateoryField(){
     const { data: categories} = useCategories();
     return <div className="form-group">
         <label className="form-label"><strong>Product Category</strong><span>*</span></label>
-        <select className="form-control" name="categoryId" id="categoryId" required
+        <select className="form-control form-select" name="categoryId" id="categoryId" required
         value={data?.categoryId}
         onChange={(e) =>{
             handleData('categoryId', e.target.value);
@@ -883,7 +883,7 @@ function SelectAuthorField(){
     const { data: authors} = useAuthors();
     return <div className="form-group">
         <label className="form-label">Author Category<span>*</span></label>
-        <select className="form-control" name="authorsId" id="authorsId" required
+        <select className="form-control form-select" name="authorsId" id="authorsId" required
         value={data?.authorsId}
         onChange={(e) =>{
             handleData('authorsId', e.target.value)

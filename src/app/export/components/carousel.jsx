@@ -124,7 +124,7 @@ const Carousel = () => {
     const [isMobile, setIsMobile] = useState(false);
 
     const handleSlide = (activeIndex) => {
-        console.log('firstCategory: ' + activeIndex);
+        //console.log('firstCategory: ' + activeIndex);
         setActiveCategory(activeIndex);
         
       }
@@ -169,7 +169,7 @@ const Carousel = () => {
                       previousIndex,
                       realIndex,
                     } = swiperCore;
-                    console.log({ activeIndex, snapIndex, previousIndex, realIndex });
+                    // console.log({ activeIndex, snapIndex, previousIndex, realIndex });
                     handleSlide(activeIndex)
                 }}
                 effect="fade"
@@ -213,8 +213,8 @@ const Carousel = () => {
                 modules={[Controller, Pagination, Autoplay]}
                 onSwiper={setSecondSwiper}
                 controller={{ control: firstSwiper }}
-                onSlideChange={() => console.log('slide change')}
-                className="slider-one-container"
+                className="slider-one-container"                
+                //onSlideChange={() => console.log('slide change')}
                 //onSwiper={(swiper) => console.log(swiper)}
                 >
           <div className="swiper-wrapper">
