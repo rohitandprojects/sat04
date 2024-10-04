@@ -365,7 +365,7 @@
 	.search-main{width:35px;}
 	.hamburger-search{justify-content:space-between;top:24px;width:calc(100% - (5.0446663163% + 5.0446663163%));}
 	.search-container{height:135px;}
-	.search-sub{width:calc(100% - (5.0446663163% + 5.0446663163%));top:auto;transform:none;bottom:10px;left:50%;transform:translateX(-50%);padding-left:0px;padding-right:50px;}
+	.search-sub{width:calc(100% - (5.0446663163% + 5.0446663163%));top:auto;bottom:10px;left:50%;transform:translateX(-50%);padding-left:0px;padding-right:50px;}
 	.search-sub .form-control{text-align:left;height:35px;}
 	.search-btn{right:0;width:35px;height:35px;}
 	.search-sub .form-control{font-size:20px;}
